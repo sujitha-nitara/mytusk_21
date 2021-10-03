@@ -1,3 +1,0 @@
-git status: to get status of current repo
-if a file is in staging area but not committed, it shows with git status
-git clone sshkey
