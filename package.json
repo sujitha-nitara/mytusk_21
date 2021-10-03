@@ -1,0 +1,22 @@
+{
+  "name": "redis_pm2",
+  "version": "1.0.0",
+  "description": "App using redis, express and PM2",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon app.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sujitha K",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "keywords": []
+}
